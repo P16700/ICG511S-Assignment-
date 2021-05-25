@@ -1,0 +1,6 @@
+Prompt "please enter name of products "
+    Get nameOfProducts
+Prompt "please enter number of products "
+    Get numOfproducts
+Prompt "please enter barcode number of products "
+    Get barcodeNum
