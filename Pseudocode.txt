@@ -18,6 +18,22 @@ End case
 }
 END
 
+numOfPurchase(sales)=0
+START 
+
+Prompt "enter name of product"
+  Get nameOfProduct
+Prompt "enter price of product"
+  Get priceOfProduct
+Prompt "enter number of products "
+  Get numProduct
+ 
+PRINT
+purchaseCounter(totalCost){
+priceOfProduct * numProduct}
+
+END
+
 START
 
 Prompt “type in full name”
@@ -33,13 +49,3 @@ Default: "Invalid entry please re-enter"
   ENDIF
 END
 
-Start
-Prompt "please enter name of products "
-   Get nameofproduct 
-Prompt "please enter number of products"
-   Get numofproducts 
-Prompt "please enter barcode number of products "
-   Get barcodeNum
-Get
-Default ="Invalid entry please re-enter"
-END
