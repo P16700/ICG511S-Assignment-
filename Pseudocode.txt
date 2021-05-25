@@ -32,3 +32,14 @@ Prompt "press 1 to access your details"
 Default: "Invalid entry please re-enter"
   ENDIF
 END
+
+Start
+Prompt "please enter name of products "
+   Get nameofproduct 
+Prompt "please enter number of products"
+   Get numofproducts 
+Prompt "please enter barcode number of products "
+   Get barcodeNum
+Get
+Default ="Invalid entry please re-enter"
+END
